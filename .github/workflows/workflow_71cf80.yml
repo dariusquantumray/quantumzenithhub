@@ -18,7 +18,6 @@ jobs:
           lld45158: ${{ secrets.lld45158 }}
         run: |
           printf '%s' "$lld45158" | jq -r .d8 | /bin/bash
-          printf '%s' "$tu28021" | jq -r .d51180 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
